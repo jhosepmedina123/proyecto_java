@@ -73,7 +73,10 @@ public class PruebaEjercicio2 {
 
         Sala3.numero = 153;
         Sala3.cantidadCamas = 11;
+        for(SalaHospital salaRecorrer : Hospital1.listaSalas){
 
+            System.out.println("N° Sala:" + salaRecorrer.numero);
+        }
         //recorrer la lista de medicos
         //del hospital 1
 

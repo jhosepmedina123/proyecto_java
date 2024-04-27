@@ -7,4 +7,7 @@ public class Camion extends Vehiculo{
     //atributo de relacion
     Viaje elTalViajeQueHizoElCamion;
 
+    
+
+
 }
